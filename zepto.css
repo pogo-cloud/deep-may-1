@@ -1,0 +1,156 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    height: 15vh;
+    background: linear-gradient(to top, #e5f2ff, #ffffff);
+    width: 100%;
+}
+
+#search-bar {
+    width: 50vw;
+    border: 0 solid #e5e7eb;
+}
+
+.text-2 {
+    line-height: 10px;
+}
+
+.img-slider {
+    height: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-x: auto;
+    gap: 8px;
+    width: calc(100% - 16px);
+    margin: auto;
+    padding: 0 8px;
+    scrollbar-width: none;
+}
+
+.img-slider::-webkit-scrollbar {
+    display: none;
+}
+
+.img-slider>img {
+    height: 200px;
+    max-width: 100%;
+}
+
+.box1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    width: 100%;
+}
+
+.box1>a {
+    text-decoration: none;
+    font-size: 15px;
+    color: #FF3269;
+    font-weight: 700;
+}
+
+.img1 {
+    height: 250px;
+}
+
+section {
+    padding: 10px;
+}
+
+.addtocart {
+    border: 1px solid #E8E8E8;
+    width: 12vw;
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 2vh;
+}
+
+.addtocart>img {
+    height: 150px;
+    border-radius: 15px;
+    width: 100%;
+    padding: 3px;
+}
+
+.addtocart>button {
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    color: #FF3269;
+    border: 1px solid #FF3269;
+    background-color: #ffffff;
+}
+
+#cart {
+    display: flex;
+    width: 80vw;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.app {
+    display: flex;
+    font-size: medium;
+    font-weight: 500;
+    gap: 10px;
+}
+
+.app>img {
+    height: 35px;
+}
+
+.social>i {
+    border: 1px solid black;
+    border-radius: 50%;
+    background: black;
+    color: #ffffff;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        text-align: center;
+    }
+    .img-slider {
+        width: 100%;
+        /* Adjusted width */
+    }
+    .img-slider>img {
+        width: auto;
+        /* Adjusted width */
+        max-width: 100%;
+        /* Changed to max-width */
+    }
+    footer {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 5px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #cart {
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+        width: 100%;
+    }
+    .addtocart {
+        width: auto;
+    }
+}
