@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="zepto.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+</head>
+
+<body>
+    <nav class="d-flex justify-content-around  align-items-center m-0">
+        <img alt="" loading="lazy" width="90" height="30" decoding="async" data-nimg="1" class="relative overflow-hidden false inline-block min-w-[90px]" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" srcset="https://cdn.zeptonow.com/web-static-assets-prod/artifacts/10.9.10/images/header/primary-logo.svg 256w, https://cdn.zeptonow.com/web-static-assets-prod/artifacts/10.9.10/images/header/primary-logo.svg 384w, https://cdn.zeptonow.com/web-static-assets-prod/artifacts/10.9.10/images/header/primary-logo.svg 640w, https://cdn.zeptonow.com/web-static-assets-prod/artifacts/10.9.10/images/header/primary-logo.svg 750w, https://cdn.zeptonow.com/web-static-assets-prod/artifacts/10.9.10/images/header/primary-logo.svg 828w, https://cdn.zeptonow.com/web-static-assets-prod/artifacts/10.9.10/images/header/primary-logo.svg 1080w, https://cdn.zeptonow.com/web-static-assets-prod/artifacts/10.9.10/images/header/primary-logo.svg 1200w, https://cdn.zeptonow.com/web-static-assets-prod/artifacts/10.9.10/images/header/primary-logo.svg 1920w, https://cdn.zeptonow.com/web-static-assets-prod/artifacts/10.9.10/images/header/primary-logo.svg 2048w, https://cdn.zeptonow.com/web-static-assets-prod/artifacts/10.9.10/images/header/primary-logo.svg 3840w"
+            src="https://cdn.zeptonow.com/web-static-assets-prod/artifacts/10.9.10/images/header/primary-logo.svg" style="color: transparent; object-fit: contain;">
+        <div class="text-2">
+            <h4>Delivery in <span style="font-weight:900;color:rgb(142, 68, 173);">8 mins</span></h4>
+            <div class="d-flex align-items-center fs-0.5 gap-1">
+                <p>Dadar West, Dadar </p>
+                <i class="fa-solid fa-angle-down mb-2"></i>
+            </div>
+        </div>
+        <div class="m-0 p-2 border bg-white rounded">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input id="search-bar" type="text" placeholder="Search for over 5000 products">
+        </div>
+        <div class="d-flex gap-3" style="height:8vh;">
+            <div>
+                <i class="fa-regular fa-circle-user"></i>
+                <p>Login</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-cart-shopping"></i>
+                <p>Cart</p>
+            </div>
+        </div>
+
+    </nav>
+    <div class="align-middle ms-5 me-5">
+        <img alt="paan-corner-banner" fetchpriority="high" width="100%" height="235" decoding="async" data-nimg="1" class="relative overflow-hidden false w-full p-4 " sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" srcset="https://cdn.zeptonow.com/web-static-assets-prod/artifacts/10.9.10/tr:w-640,ar-1438-235,pr-true,f-auto,q-80//images/paan-corner/paan-corner-banner-desktop.png 256w, https://cdn.zeptonow.com/web-static-assets-prod/artifacts/10.9.10/tr:w-640,ar-1438-235,pr-true,f-auto,q-80//images/paan-corner/paan-corner-banner-desktop.png 384w, https://cdn.zeptonow.com/web-static-assets-prod/artifacts/10.9.10/tr:w-640,ar-1438-235,pr-true,f-auto,q-80//images/paan-corner/paan-corner-banner-desktop.png 640w, https://cdn.zeptonow.com/web-static-assets-prod/artifacts/10.9.10/tr:w-640,ar-1438-235,pr-true,f-auto,q-80//images/paan-corner/paan-corner-banner-desktop.png 750w, https://cdn.zeptonow.com/web-static-assets-prod/artifacts/10.9.10/tr:w-640,ar-1438-235,pr-true,f-auto,q-80//images/paan-corner/paan-corner-banner-desktop.png 828w, https://cdn.zeptonow.com/web-static-assets-prod/artifacts/10.9.10/tr:w-640,ar-1438-235,pr-true,f-auto,q-80//images/paan-corner/paan-corner-banner-desktop.png 1080w, https://cdn.zeptonow.com/web-static-assets-prod/artifacts/10.9.10/tr:w-640,ar-1438-235,pr-true,f-auto,q-80//images/paan-corner/paan-corner-banner-desktop.png 1200w, https://cdn.zeptonow.com/web-static-assets-prod/artifacts/10.9.10/tr:w-640,ar-1438-235,pr-true,f-auto,q-80//images/paan-corner/paan-corner-banner-desktop.png 1920w, https://cdn.zeptonow.com/web-static-assets-prod/artifacts/10.9.10/tr:w-640,ar-1438-235,pr-true,f-auto,q-80//images/paan-corner/paan-corner-banner-desktop.png 2048w, https://cdn.zeptonow.com/web-static-assets-prod/artifacts/10.9.10/tr:w-640,ar-1438-235,pr-true,f-auto,q-80//images/paan-corner/paan-corner-banner-desktop.png 3840w"
+            src="https://cdn.zeptonow.com/web-static-assets-prod/artifacts/10.9.10/tr:w-640,ar-1438-235,pr-true,f-auto,q-80//images/paan-corner/paan-corner-banner-desktop.png" style="color: transparent; object-fit: fill;">
+    </div>
+    <div class="img-slider">
+        <img src="https://cdn.zeptonow.com/production///tr:w-640,ar-973-558,pr-true,f-auto,q-80/inventory/banner/f5aec6a3-77d3-4d9c-a622-f63eae6f9349.png">
+        <img src="https://cdn.zeptonow.com/production///tr:w-950,ar-950-547,pr-true,f-auto,q-80/inventory/banner/9bcebe9e-6a2e-46ff-ad51-41bab973c1cb.png">
+        <img src="https://cdn.zeptonow.com/production///tr:w-969,ar-969-501,pr-true,f-auto,q-80/inventory/banner/64e39a3a-8674-4a79-85e8-b0eda19af515.png">
+        <img src="https://cdn.zeptonow.com/production///tr:w-969,ar-969-558,pr-true,f-auto,q-80/inventory/banner/84032445-e848-44c9-a3b3-ba2527292ab4.png">
+        <img src="https://cdn.zeptonow.com/production///tr:w-969,ar-969-558,pr-true,f-auto,q-80/inventory/banner/544e6dce-be1f-45b8-9fd5-af950f871b35.png">
+        <img src="https://cdn.zeptonow.com/production///tr:w-969,ar-969-558,pr-true,f-auto,q-80/inventory/banner/66e490ea-217f-4312-ab09-d7643d8d2fdb.png">
+
+    </div>
+    <div>
+        <div class="box1">
+            <h3>Explore By Categories</h3>
+            <a href="#">See ALL &gt;</a>
+        </div>
+        <div class="d-flex flex-wrap w-75 m-auto gap-3">
+            <img class="img1" src="https://cdn.zeptonow.com/production///tr:w-210,ar-225-333,pr-true,f-auto,q-80/cms/category/031c2a24-d40f-4272-8c71-8a566252495e.png">
+            <img class="img1" src="https://cdn.zeptonow.com/production///tr:w-210,ar-225-333,pr-true,f-auto,q-80/cms/category/e9d8155b-bad1-437d-a981-0eb40e4fb9d3.png">
+            <img class="img1" src="https://cdn.zeptonow.com/production///tr:w-210,ar-226-333,pr-true,f-auto,q-80/cms/category/c3abd460-77fd-4750-8c67-712f79e9a14f.png">
+            <img class="img1" src="https://cdn.zeptonow.com/production///tr:w-210,ar-225-333,pr-true,f-auto,q-80/cms/category/47b3a34d-8f9f-42fe-97a0-4d8350748924.png">
+            <img class="img1" src="https://cdn.zeptonow.com/production///tr:w-210,ar-226-334,pr-true,f-auto,q-80/cms/category/9b88fff5-73f5-46fd-999f-1622db4203d7.png">
+            <img class="img1" src="https://cdn.zeptonow.com/production///tr:w-210,ar-225-333,pr-true,f-auto,q-80/cms/category/14aaaa00-2252-4cf6-bea7-6884915592cc.png">
+            <img class="img1" src="https://cdn.zeptonow.com/production///tr:w-210,ar-225-333,pr-true,f-auto,q-80/cms/category/57079f1d-e559-46bf-a2f0-563f846ce0cd.png">
+            <img class="img1" src="https://cdn.zeptonow.com/production///tr:w-210,ar-225-334,pr-true,f-auto,q-80/cms/category/5e790e38-8a75-4280-961a-bfe5053e5e0b.png">
+            <img class="img1" src="https://cdn.zeptonow.com/production///tr:w-210,ar-225-333,pr-true,f-auto,q-80/cms/category/1d07ad2e-64ee-4172-b690-398476fb30b8.png">
+            <img class="img1" src="https://cdn.zeptonow.com/production///tr:w-210,ar-225-333,pr-true,f-auto,q-80/cms/category/031c2a24-d40f-4272-8c71-8a566252495e.png">
+            <img class="img1" src="https://cdn.zeptonow.com/production///tr:w-210,ar-225-333,pr-true,f-auto,q-80/cms/category/e9d8155b-bad1-437d-a981-0eb40e4fb9d3.png">
+            <img class="img1" src="https://cdn.zeptonow.com/production///tr:w-210,ar-226-333,pr-true,f-auto,q-80/cms/category/c3abd460-77fd-4750-8c67-712f79e9a14f.png">
+            <img class="img1" src="https://cdn.zeptonow.com/production///tr:w-210,ar-225-333,pr-true,f-auto,q-80/cms/category/47b3a34d-8f9f-42fe-97a0-4d8350748924.png">
+            <img class="img1" src="https://cdn.zeptonow.com/production///tr:w-210,ar-226-334,pr-true,f-auto,q-80/cms/category/9b88fff5-73f5-46fd-999f-1622db4203d7.png">
+            <img class="img1" src="https://cdn.zeptonow.com/production///tr:w-210,ar-225-333,pr-true,f-auto,q-80/cms/category/14aaaa00-2252-4cf6-bea7-6884915592cc.png">
+            <img class="img1" src="https://cdn.zeptonow.com/production///tr:w-210,ar-225-333,pr-true,f-auto,q-80/cms/category/57079f1d-e559-46bf-a2f0-563f846ce0cd.png">
+            <img class="img1" src="https://cdn.zeptonow.com/production///tr:w-210,ar-225-334,pr-true,f-auto,q-80/cms/category/5e790e38-8a75-4280-961a-bfe5053e5e0b.png">
+            <img class="img1" src="https://cdn.zeptonow.com/production///tr:w-210,ar-225-333,pr-true,f-auto,q-80/cms/category/1d07ad2e-64ee-4172-b690-398476fb30b8.png">
+        </div>
+    </div>
+    <section id="cart">
+        <div class="addtocart">
+            <img src="https://cdn.zeptonow.com/production///tr:w-350,ar-1021-1021,pr-true,f-auto,q-80/cms/product_variant/227b4ecf-f4e9-48ac-8046-0820a16b96df.jpeg">
+            <p>Icelings - The pure Ice Cubes</p>
+            <p>&#8377 60</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="addtocart">
+            <img src="https://cdn.zeptonow.com/production///tr:w-350,ar-1021-1021,pr-true,f-auto,q-80/cms/product_variant/227b4ecf-f4e9-48ac-8046-0820a16b96df.jpeg">
+            <p>Icelings - The pure Ice Cubes</p>
+            <p>&#8377 60</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="addtocart">
+            <img src="https://cdn.zeptonow.com/production///tr:w-350,ar-1021-1021,pr-true,f-auto,q-80/cms/product_variant/227b4ecf-f4e9-48ac-8046-0820a16b96df.jpeg">
+            <p>Icelings - The pure Ice Cubes</p>
+            <p>&#8377 60</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="addtocart">
+            <img src="https://cdn.zeptonow.com/production///tr:w-350,ar-1021-1021,pr-true,f-auto,q-80/cms/product_variant/227b4ecf-f4e9-48ac-8046-0820a16b96df.jpeg">
+            <p>Icelings - The pure Ice Cubes</p>
+            <p>&#8377 60</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="addtocart">
+            <img src="https://cdn.zeptonow.com/production///tr:w-350,ar-1021-1021,pr-true,f-auto,q-80/cms/product_variant/227b4ecf-f4e9-48ac-8046-0820a16b96df.jpeg">
+            <p>Icelings - The pure Ice Cubes</p>
+            <p>&#8377 60</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="addtocart">
+            <img src="https://cdn.zeptonow.com/production///tr:w-350,ar-1021-1021,pr-true,f-auto,q-80/cms/product_variant/227b4ecf-f4e9-48ac-8046-0820a16b96df.jpeg">
+            <p>Icelings - The pure Ice Cubes</p>
+            <p>&#8377 60</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="addtocart">
+            <img src="https://cdn.zeptonow.com/production///tr:w-350,ar-1021-1021,pr-true,f-auto,q-80/cms/product_variant/227b4ecf-f4e9-48ac-8046-0820a16b96df.jpeg">
+            <p>Icelings - The pure Ice Cubes</p>
+            <p>&#8377 60</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="addtocart">
+            <img src="https://cdn.zeptonow.com/production///tr:w-350,ar-1021-1021,pr-true,f-auto,q-80/cms/product_variant/227b4ecf-f4e9-48ac-8046-0820a16b96df.jpeg">
+            <p>Icelings - The pure Ice Cubes</p>
+            <p>&#8377 60</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="addtocart">
+            <img src="https://cdn.zeptonow.com/production///tr:w-350,ar-1021-1021,pr-true,f-auto,q-80/cms/product_variant/227b4ecf-f4e9-48ac-8046-0820a16b96df.jpeg">
+            <p>Icelings - The pure Ice Cubes</p>
+            <p>&#8377 60</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="addtocart">
+            <img src="https://cdn.zeptonow.com/production///tr:w-350,ar-1021-1021,pr-true,f-auto,q-80/cms/product_variant/227b4ecf-f4e9-48ac-8046-0820a16b96df.jpeg">
+            <p>Icelings - The pure Ice Cubes</p>
+            <p>&#8377 60</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="addtocart">
+            <img src="https://cdn.zeptonow.com/production///tr:w-350,ar-1021-1021,pr-true,f-auto,q-80/cms/product_variant/227b4ecf-f4e9-48ac-8046-0820a16b96df.jpeg">
+            <p>Icelings - The pure Ice Cubes</p>
+            <p>&#8377 60</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="addtocart">
+            <img src="https://cdn.zeptonow.com/production///tr:w-350,ar-1021-1021,pr-true,f-auto,q-80/cms/product_variant/227b4ecf-f4e9-48ac-8046-0820a16b96df.jpeg">
+            <p>Icelings - The pure Ice Cubes</p>
+            <p>&#8377 60</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="addtocart">
+            <img src="https://cdn.zeptonow.com/production///tr:w-350,ar-1021-1021,pr-true,f-auto,q-80/cms/product_variant/227b4ecf-f4e9-48ac-8046-0820a16b96df.jpeg">
+            <p>Icelings - The pure Ice Cubes</p>
+            <p>&#8377 60</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="addtocart">
+            <img src="https://cdn.zeptonow.com/production///tr:w-350,ar-1021-1021,pr-true,f-auto,q-80/cms/product_variant/227b4ecf-f4e9-48ac-8046-0820a16b96df.jpeg">
+            <p>Icelings - The pure Ice Cubes</p>
+            <p>&#8377 60</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="addtocart">
+            <img src="https://cdn.zeptonow.com/production///tr:w-350,ar-1021-1021,pr-true,f-auto,q-80/cms/product_variant/227b4ecf-f4e9-48ac-8046-0820a16b96df.jpeg">
+            <p>Icelings - The pure Ice Cubes</p>
+            <p>&#8377 60</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="addtocart">
+            <img src="https://cdn.zeptonow.com/production///tr:w-350,ar-1021-1021,pr-true,f-auto,q-80/cms/product_variant/227b4ecf-f4e9-48ac-8046-0820a16b96df.jpeg">
+            <p>Icelings - The pure Ice Cubes</p>
+            <p>&#8377 60</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="addtocart">
+            <img src="https://cdn.zeptonow.com/production///tr:w-350,ar-1021-1021,pr-true,f-auto,q-80/cms/product_variant/227b4ecf-f4e9-48ac-8046-0820a16b96df.jpeg">
+            <p>Icelings - The pure Ice Cubes</p>
+            <p>&#8377 60</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="addtocart">
+            <img src="https://cdn.zeptonow.com/production///tr:w-350,ar-1021-1021,pr-true,f-auto,q-80/cms/product_variant/227b4ecf-f4e9-48ac-8046-0820a16b96df.jpeg">
+            <p>Icelings - The pure Ice Cubes</p>
+            <p>&#8377 60</p>
+            <button>Add to Cart</button>
+        </div>
+    </section>
+    <footer class="d-flex  justify-content-between bg-body-secondary p-4 align-items-center mt-4">
+        <div>
+            <p>© Zepto Private Limited, 2016-2024</p>
+        </div>
+        <div class="app">
+            <p>Download App</p>
+            <img src="https://blinkit.com/d61019073b700ca49d22.png">
+            <img src="https://blinkit.com/8ed033800ea38f24c4f0.png">
+        </div>
+        <div class="social">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-x-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-threads"></i>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</body>
+
+</html>
